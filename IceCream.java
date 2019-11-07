@@ -36,4 +36,12 @@ public class IceCream extends Food {
 		System.out.println(this + " съедено");
 	}
 	
+	public int calculateCalories() {
+		switch (sirupFlavour) {
+		case "шоколад" : return 250; 
+		case "карамель" : return 260; 
+		case "ваниль" : return 270;
+		default : return 0; 
+		}
+	}
 }

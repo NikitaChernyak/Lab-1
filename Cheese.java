@@ -10,4 +10,7 @@ public class Cheese extends Food {
 		System.out.println(this + " съеден");
 	} 
 	
+	public int calculateCalories() {
+		return 300;
+	}
 }

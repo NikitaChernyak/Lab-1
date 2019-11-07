@@ -14,6 +14,15 @@ public class Apple extends Food {
 		System.out.println(this + " съедено");
 	}
 	
+	public int calculateCalories() {
+		switch (size) {
+		case "маленькое" : return 40; 
+		case "среднее" : return 50; 
+		case "большое" : return 60;
+		default : return 0; 
+		}
+	}
+	
 	public String getSize() {
 		return size;
 	}
