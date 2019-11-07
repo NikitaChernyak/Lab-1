@@ -15,6 +15,7 @@ public class MainApplication {
 			switch (parts[0]) {
 			case "Cheese" : breakfast[itemsSoFar] = new Cheese(); break;
 			case "Apple" : breakfast[itemsSoFar] = new Apple(parts[1]); break;
+			case "IceCream" : breakfast[itemsSoFar] = new IceCream(parts[1]); break;
 			}
 			itemsSoFar++; 
 		}
