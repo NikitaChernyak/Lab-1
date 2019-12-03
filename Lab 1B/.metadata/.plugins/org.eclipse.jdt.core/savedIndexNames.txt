@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/nikita/Documents/2 курс/Proga/Labs/lab1B/Lab 1B/.metadata/.plugins/org.eclipse.jdt.core
+2411486343.index
+646308851.index
